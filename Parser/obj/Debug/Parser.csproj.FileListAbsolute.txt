@@ -1,0 +1,12 @@
+D:\Maksym\projects\Parser\bin\Debug\Parser.dll
+D:\Maksym\projects\Parser\bin\Debug\Parser.pdb
+D:\Maksym\projects\Parser\obj\Debug\Parser.csprojAssemblyReference.cache
+D:\Maksym\projects\Parser\obj\Debug\Parser.csproj.CoreCompileInputs.cache
+D:\Maksym\projects\Parser\obj\Debug\Parser.dll
+D:\Maksym\projects\Parser\obj\Debug\Parser.pdb
+C:\Maks\projects\Parser\bin\Debug\Parser.dll
+C:\Maks\projects\Parser\bin\Debug\Parser.pdb
+C:\Maks\projects\Parser\obj\Debug\Parser.csprojAssemblyReference.cache
+C:\Maks\projects\Parser\obj\Debug\Parser.csproj.CoreCompileInputs.cache
+C:\Maks\projects\Parser\obj\Debug\Parser.dll
+C:\Maks\projects\Parser\obj\Debug\Parser.pdb
