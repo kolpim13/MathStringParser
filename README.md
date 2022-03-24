@@ -12,7 +12,7 @@ Parser takes string with equation and ref on start index, that should be always 
 Usage examples:
 1) Normal usage
 
-[image](https://user-images.githubusercontent.com/49982100/159823237-f111c322-9c27-4fc6-a711-b6523ae574bb.png)
+![image](https://user-images.githubusercontent.com/49982100/159823237-f111c322-9c27-4fc6-a711-b6523ae574bb.png)
 
 2) User defined algebraic actions. On integer division example.
 ![image](https://user-images.githubusercontent.com/49982100/159823301-4a333d7a-e7f2-4996-97a2-dd4bcdb11593.png)
