@@ -195,7 +195,7 @@ namespace StringParser
 
                 if (Cell.IsDigit(c))
                 {
-                    if (c == '.') c = ',';
+                    if (c == ',') c = '.';
                     number.Append(c);
                     wasDigit = true;
                     continue;
