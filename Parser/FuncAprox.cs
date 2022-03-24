@@ -31,7 +31,7 @@ namespace StringParser
             Points.Clear();
             for (double i = PointFrom; i < PointTo; i += Step)
             {
-                double temp = Parser.SplitAndCalc(Parser.listToMerge, data, ref index, i);
+                double temp = Parser.SplitAndCalc(data, ref index, i);
                 Points.Add(temp);
                 index = 0;
             }

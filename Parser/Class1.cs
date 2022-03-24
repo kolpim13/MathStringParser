@@ -88,21 +88,18 @@ namespace StringParser
         public static event MessageHandler Notify;
 
         //список ячеек, что удалось выделить из строки
-        public static List<Cell> listToMerge = new List<Cell>();
+        private static List<Cell> listToMerge = new List<Cell>();
 
         //зарезервированные сиволы
         public const char END_STR = '}';
         public const char START_BLOCK = '(';
         public const char END_BLOCK = ')';
 
-        public Parser()
-        {
-
-        }
+        public Parser(){}
 
         ///////////////////////////////////////////////////////////
-        ///Разложтьстроку на ячейк и посчитать
-        public static double SplitAndCalc(List<Cell> listToMerge, string data, ref int index, double arg = 1, int listIndex = 0)
+        ///Разложть строку на ячейк и посчитать
+        public static double SplitAndCalc(string data, ref int index, double arg = 1, int listIndex = 0)
         {
             //Блок первоначальной проверки строки на корректность 
             if (index >= data.Length)
@@ -149,7 +146,7 @@ namespace StringParser
                 if (c == START_BLOCK)
                 {
                     index++;
-                    SplitAndCalc(listToMerge, data, ref index, arg, listIndexNext);
+                    SplitAndCalc(data, ref index, arg, listIndexNext);
                     //если мы зашли в рекусрсию после функции, то выполняем текст функции.
                     if(function.Length != 0)
                     {
@@ -328,5 +325,3 @@ namespace StringParser
         }
     }
 }
-
-//Добавить события для отображения ошибок

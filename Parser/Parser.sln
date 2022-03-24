@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StingParser", "StingParser.csproj", "{F100620C-E11A-4403-BEE6-ED4D27A96AFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParserTest", "..\ParserTest\ParserTest.csproj", "{940B15A4-27AC-4E37-9761-76008736AB7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F100620C-E11A-4403-BEE6-ED4D27A96AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F100620C-E11A-4403-BEE6-ED4D27A96AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F100620C-E11A-4403-BEE6-ED4D27A96AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940B15A4-27AC-4E37-9761-76008736AB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940B15A4-27AC-4E37-9761-76008736AB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940B15A4-27AC-4E37-9761-76008736AB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940B15A4-27AC-4E37-9761-76008736AB7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

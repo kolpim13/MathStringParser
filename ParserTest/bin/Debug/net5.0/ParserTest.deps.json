@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ParserTest/1.0.0": {
+        "dependencies": {
+          "StingParser": "1.0.0"
+        },
+        "runtime": {
+          "ParserTest.dll": {}
+        }
+      },
+      "StingParser/1.0.0": {
+        "runtime": {
+          "Parser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ParserTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StingParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
