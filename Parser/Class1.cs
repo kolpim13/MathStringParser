@@ -183,7 +183,7 @@ namespace StringParser
                             listToMerge.Add(new Cell(var, sign, isArg));
 
                         if (listToMerge.Count - listIndex > 1)
-                            return MergeList(listToMerge, listToMerge[listIndex], listIndex, arg);
+                            return MergeList(listToMerge[listIndex], listIndex, arg);
                         return 0;
                     }
                 }
@@ -245,12 +245,12 @@ namespace StringParser
             } while (++index < data.Length);
 
             if (listToMerge.Count - listIndex > 0)
-                return MergeList(listToMerge, listToMerge[listIndex], listIndex, arg);
+                return MergeList(listToMerge[listIndex], listIndex, arg);
             return 0;
         }
         
         //Обьеденить ListToMerge в 1 ячейку. index - текущий номер элемента в списке
-        private static double MergeList(List<Cell> listToMerge, Cell current, int index, double arg)
+        private static double MergeList(Cell current, int index, double arg)
         {
             CalcArgument(current, arg);
             while (index < listToMerge.Count - 1)
@@ -259,7 +259,7 @@ namespace StringParser
                 CalcArgument(next, arg);
                 if (!Cell.IsSenior(current, next))
                 {
-                    MergeList(listToMerge, next, index + 1, arg);
+                    MergeList(next, index + 1, arg);
                 }
 
                 Cell.Merge(current, next);

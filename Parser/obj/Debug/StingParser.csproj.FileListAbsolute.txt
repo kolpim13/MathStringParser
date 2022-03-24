@@ -9,3 +9,4 @@ D:\GitHub\MathStringParser\Parser\bin\Debug\Parser.pdb
 D:\GitHub\MathStringParser\Parser\obj\Debug\StingParser.csproj.CoreCompileInputs.cache
 D:\GitHub\MathStringParser\Parser\obj\Debug\Parser.dll
 D:\GitHub\MathStringParser\Parser\obj\Debug\Parser.pdb
+D:\GitHub\MathStringParser\Parser\obj\Debug\StingParser.csprojAssemblyReference.cache
