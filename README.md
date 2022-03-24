@@ -15,9 +15,11 @@ Usage examples:
 ![image](https://user-images.githubusercontent.com/49982100/159823237-f111c322-9c27-4fc6-a711-b6523ae574bb.png)
 
 2) User defined algebraic actions. On integer division example.
+
 ![image](https://user-images.githubusercontent.com/49982100/159823301-4a333d7a-e7f2-4996-97a2-dd4bcdb11593.png)
 ![image](https://user-images.githubusercontent.com/49982100/159823418-8eee3557-e3a0-4fb9-ba92-2bae75efe89e.png)
 
 3) User defined function. On cos calculation example.
+
 ![image](https://user-images.githubusercontent.com/49982100/159823474-2b02341b-361c-41e7-a7db-c24765c56455.png)
 ![image](https://user-images.githubusercontent.com/49982100/159823539-c604e311-658e-4190-8800-01a724ce0b7d.png)
